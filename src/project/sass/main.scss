@@ -1,0 +1,29 @@
+@import '_colors';
+html, body {
+  width: 100%;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5 !important;
+  image {
+    display: block;
+  }
+}
+//animatewithsass
+@import '../bower_components/animatewithsass/animate.scss';
+//bootstrap
+@import '../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+//flexbox
+@import '../bower_components/flexbox/scss/grid.scss';
+@import '../bower_components/flexbox/scss/media-object.scss';
+
+
+@import '_carousel';
+@import '_reset';
+@import '_mainfont';
+@import '_nav';
+@import '_layout';
+@import '_icons';
+@import '_responsive';

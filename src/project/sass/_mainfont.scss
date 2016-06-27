@@ -1,0 +1,82 @@
+/* Fonts */
+@font-face {
+  font-family: 'helvetica-neue';
+  src: url('../fonts/helvetica-neue/helvetica-neue.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/helvetica-neue/helvetica-neue.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/helvetica-neue/helvetica-neue.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/helvetica-neue/helvetica-neue.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/helvetica-neue/helvetica-neue.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/helvetica-neue/helvetica-neue.svg#HelveticaNeue') format('svg'); /* Legacy iOS */
+}
+
+.helvetica-neue {
+  font-family: 'helvetica-neue', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'helvetica-neue-regular';
+  src: url('../fonts/helvetica-neue-regular/helvetica-neue-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/helvetica-neue-regular/helvetica-neue-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/helvetica-neue-regular/helvetica-neue-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('../fonts/helvetica-neue-regular/helvetica-neue-regular.woff') format('woff'), /* Pretty Modern Browsers */ url('../fonts/helvetica-neue-regular/helvetica-neue-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('../fonts/helvetica-neue-regular/helvetica-neue-regular.svg#HelveticaNeueRegular') format('svg'); /* Legacy iOS */
+}
+
+.helvetica-neue-regular {
+  font-family: 'helvetica-neue-regular', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'helvetica-light';
+  src: url("../fonts/helvetica-light/helvetica-light.eot"); /* IE9*/
+  src: url("../fonts/helvetica-light/helvetica-light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../fonts/helvetica-light/helvetica-light.woff2") format("woff2"), /* chrome?firefox */ url("../fonts/helvetica-light/helvetica-light.woff") format("woff"), /* chrome?firefox */ url("../fonts/helvetica-light/helvetica-light.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/ url("../fonts/helvetica-light/helvetica-light.svg#Helvetica-Light") format("svg"); /* iOS 4.1- */
+}
+
+.helvetica-light {
+  font-family: 'helvetica-light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'helvetica-neue-bold';
+  src: url("../fonts/helvetica-neue-bold/helvetica-neue-bold.eot"); /* IE9*/
+  src: url("../fonts/helvetica-neue-bold/helvetica-neue-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../fonts/helvetica-neue-bold/helvetica-neue-bold.woff2") format("woff2"), /* chrome?firefox */ url("../fonts/helvetica-neue-bold/helvetica-neue-bold.woff") format("woff"), /* chrome?firefox */ url("../fonts/helvetica-neue-bold/helvetica-neue-bold.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/ url("../fonts/helvetica-neue-bold/helvetica-neue-bold.svg#HelveticaNeueBold") format("svg"); /* iOS 4.1- */
+}
+
+.helvetica-neue-bold {
+  font-family: "helvetica-neue-bold", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'helvetica-neue-medium';
+  src: url("../fonts/helvetica-neue-medium/helvetica-neue-medium.eot"); /* IE9*/
+  src: url("../fonts/helvetica-neue-medium/helvetica-neue-medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../fonts/helvetica-neue-medium/helvetica-neue-medium.woff2") format("woff2"), /* chrome?firefox */ url("../fonts/helvetica-neue-medium/helvetica-neue-medium.woff") format("woff"), /* chrome?firefox */ url("../fonts/helvetica-neue-medium/helvetica-neue-medium.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/ url("../fonts/helvetica-neue-medium/helvetica-neue-medium.svg#HelveticaNeueMedium") format("svg"); /* iOS 4.1- */
+}
+
+.helvetica-neue-medium {
+  font-family: "helvetica-neue-medium", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-smoothing: antialiased;
+}
+
+@font-face {
+  font-family: 'helvetica-neue85-heavy';
+  src: url("../fonts/helvetica-neue85-heavy/helvetica-neue85-heavy.eot"); /* IE9*/
+  src: url("../fonts/helvetica-neue85-heavy/helvetica-neue85-heavy.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../fonts/helvetica-neue85-heavy/helvetica-neue85-heavy.woff2") format("woff2"), /* chrome?firefox */ url("../fonts/helvetica-neue85-heavy/helvetica-neue85-heavy.woff") format("woff"), /* chrome?firefox */ url("../fonts/helvetica-neue85-heavy/helvetica-neue85-heavy.ttf") format("truetype"), /* chrome?firefox?opera?Safari, Android, iOS 4.2+*/ url("../fonts/helvetica-neue85-heavy/helvetica-neue85-heavy.svg#HelveticaNeue-Heavy") format("svg"); /* iOS 4.1- */
+}
+
+.helvetica-neue85-heavy {
+  font-family: "helvetica-neue85-heavy", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-smoothing: antialiased;
+}

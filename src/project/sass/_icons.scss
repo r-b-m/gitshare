@@ -1,0 +1,154 @@
+
+@font-face {
+  font-family: "icon-font";
+  src: url('../fonts/icon-font.eot');
+  src: url('../fonts/icon-font.eot?#iefix') format('eot'),
+  url('../fonts/icon-font.woff2') format('woff2'),
+  url('../fonts/icon-font.woff') format('woff'),
+  url('../fonts/icon-font.ttf') format('truetype'),
+  url('../fonts/icon-font.svg#icon-font') format('svg');
+}
+
+@mixin icon-styles {
+          font-family: "icon-font";
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          font-style: normal;
+          font-variant: normal;
+          font-weight: normal;
+          // speak: none; // only necessary if not using the private unicode range (firstGlyph option)
+          text-decoration: none;
+          text-transform: none;
+        }
+
+%icon {
+  @include icon-styles;
+}
+
+@function icon-char($filename) {
+  $char: "";
+
+  @if $filename == circle {
+  $char: "\E001";
+}
+  @if $filename == direc-arrow {
+  $char: "\E002";
+}
+  @if $filename == envelope {
+  $char: "\E003";
+}
+  @if $filename == excel {
+  $char: "\E004";
+}
+  @if $filename == facebook {
+  $char: "\E005";
+}
+  @if $filename == flickr {
+  $char: "\E006";
+}
+  @if $filename == google {
+  $char: "\E007";
+}
+  @if $filename == instagram {
+  $char: "\E008";
+}
+  @if $filename == linkedin {
+  $char: "\E009";
+}
+  @if $filename == logo {
+  $char: "\E00A";
+}
+  @if $filename == print {
+  $char: "\E00B";
+}
+  @if $filename == report {
+  $char: "\E00C";
+}
+  @if $filename == search {
+  $char: "\E00D";
+}
+  @if $filename == slideshare {
+  $char: "\E00E";
+}
+  @if $filename == sound {
+  $char: "\E00F";
+}
+  @if $filename == speaker {
+  $char: "\E010";
+}
+  @if $filename == twitter {
+  $char: "\E011";
+}
+  @if $filename == youtube {
+  $char: "\E012";
+}
+
+@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+&:#{$insert} {
+  @if $extend {
+    @extend %icon;
+  } @else {
+    @include icon-styles;
+  }
+  content: icon-char($filename);
+}
+}
+
+.icon-circle {
+  @include icon(circle);
+}
+.icon-direc-arrow {
+  @include icon(direc-arrow);
+}
+.icon-envelope {
+  @include icon(envelope);
+}
+.icon-excel {
+  @include icon(excel);
+}
+.icon-facebook {
+  @include icon(facebook);
+}
+.icon-flickr {
+  @include icon(flickr);
+}
+.icon-google {
+  @include icon(google);
+}
+.icon-instagram {
+  @include icon(instagram);
+}
+.icon-linkedin {
+  @include icon(linkedin);
+}
+.icon-logo {
+  @include icon(logo);
+}
+.icon-print {
+  @include icon(print);
+}
+.icon-report {
+  @include icon(report);
+}
+.icon-search {
+  @include icon(search);
+}
+.icon-slideshare {
+  @include icon(slideshare);
+}
+.icon-sound {
+  @include icon(sound);
+}
+.icon-speaker {
+  @include icon(speaker);
+}
+.icon-twitter {
+  @include icon(twitter);
+}
+.icon-youtube {
+  @include icon(youtube);
+}
+
