@@ -12,11 +12,11 @@
 
 
 </head>
-<body onload="noBack();" ng-app="rbm" ng-controller="con"> <!--ng-controller="con"-->
+<body onload="noBack();" data-ng-app="rbm" data-ng-controller="con"> <!--ng-controller="con"-->
 <!-- Our Website Content Goes Here -->
-<div ng-include='"templates/header.html"'></div>
+<div data-ng-include='"templates/header.html"'></div>
 <div class="page {{ pageClass }}" ng-view></div>
-<div ng-include='"templates/footer.html"'></div>
+<div data-ng-include='"templates/footer.html"'></div>
 
 
 <script type="text/javascript" src="js/main.min.js"></script>
