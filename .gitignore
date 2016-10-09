@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+node_modules
+npm-debug.log
+src/project/assets/less/iconfont_autobuild.less
+dist/
+bower_components

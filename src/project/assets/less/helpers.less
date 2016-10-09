@@ -1,0 +1,31 @@
+@max: 100;
+.i-loop (@i) when (@i <= @max) {
+  .left@{i} {
+    margin-left: @i * 1px;
+  }
+  .right@{i} {
+    margin-right: @i * 1px;
+  }
+  .j-loop (@j) when (@j <= @max) {
+    .margin@{i}-@{j} {
+      margin-top: @i * 1px;
+      margin-bottom: @j * 1px;
+    }
+    .padding@{i}-@{j} {
+      padding-top: @i * 1px;
+      padding-bottom: @j * 1px;
+    }
+    .j-loop(@j + 10);
+  }
+  .j-loop(0);
+  .i-loop(@i + 10);
+}
+.i-loop(0);
+
+
+.absolute-center(){
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
