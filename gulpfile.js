@@ -1,6 +1,3 @@
-/**
- Author: Martin Ojaste - 2015 - PunkDigital OÜ
- */
 
 // Include Gulp
 var gulp = require('gulp');
