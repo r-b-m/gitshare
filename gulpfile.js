@@ -131,13 +131,12 @@ gulp.task('del', function (cb) {
     del(['dist/*'], cb);
 });
 
-
 /***
  *
  *  Livereload
  *
  ***/
-
+ 
 gulp.task('livereload', function () {
     // Create LiveReload server
     livereload.listen();
@@ -147,7 +146,6 @@ gulp.task('livereload', function () {
         .on('error', gutil.log);
 
 });
-
 
 /***
  *
@@ -176,7 +174,6 @@ gulp.task('iconfont', function () {
         }))
         .pipe(gulp.dest('dist/fonts'));
 });
-
 
 /***
  *
